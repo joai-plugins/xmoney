@@ -1,0 +1,18 @@
+interface:
+  display_name: "xMoney"
+  short_description: "Connect xMoney to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server."
+  icon_small: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/xmoney.svg"
+  icon_large: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/xmoney.svg"
+  brand_color: "#7c4dff"
+  default_prompt: "List the xMoney tools available in this app."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-xmoney"
+      description: "xMoney MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/xmoney"
