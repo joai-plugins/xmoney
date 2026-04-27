@@ -1,0 +1,38 @@
+{
+  "name": "joai-xmoney",
+  "version": "0.3.0",
+  "description": "Connect xMoney to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/xmoney",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "xmoney"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "xMoney by JoAi",
+    "shortDescription": "Connect xMoney to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Crypto & Fiat payment platform",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/xmoney",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the xMoney tools available in this app.",
+      "Explain what setup or authentication xMoney needs before I run an action.",
+      "Use xMoney to help me with the task I describe next."
+    ]
+  }
+}

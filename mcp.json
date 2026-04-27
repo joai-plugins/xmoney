@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "joai-xmoney": {
+      "url": "https://cortex.joai.ai/mcp/apps/xmoney"
+    }
+  }
+}
